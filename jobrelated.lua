@@ -512,7 +512,7 @@ TEAM_NWO4 = DarkRP.createJob("NWO Sniper", {
    candemote = true,
    category = "New World Order",
    customCheck = function(ply) return
-        table.HasValue({"xD"}, ply:SteamID())
+        table.HasValue({"SteamID"}, ply:SteamID())
     end,
 })
 
@@ -1035,7 +1035,7 @@ TEAM_XOF2 = DarkRP.createJob("XOF Heavy Soldier", {
    model = {"models/ninja/mgs5gz/mgs5_gz_xof2.mdl"},
    description = [[You are a heavy infantry unit for XOF Military Company. You are up close and personal and would be the first to enter a base while raiding.]],
    weapons = {"cw_xm1014", "cw_g4p_glock17", "lockpick", "keypad_cracker"},
-   command = "xofheavysoldier",
+   command = "Odwołaj licencję na broń",
    max = 1,
    salary = 250,
    admin = 0,
